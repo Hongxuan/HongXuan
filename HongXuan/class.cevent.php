@@ -12,6 +12,7 @@ class cevent extends basecontroller
 		$view = new vevent();
 		return new routeinfo($view, 'new_event');
 	}
+//123
 
 	function new_event_submit()
 	{
